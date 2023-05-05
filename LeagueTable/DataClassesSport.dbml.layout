@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClassesSport">
+  <DataContextMoniker Name="/DataClassesSportDataContext" />
+  <nestedChildShapes>
+    <classShape Id="5e0a2f5b-2b56-4a3d-9eb3-03f7c960aef0" absoluteBounds="4.875, 1.375, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DataClassesSportDataContext/Match" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f19563c7-344a-4354-bbfd-20ebf40fa3d3" absoluteBounds="4.89, 1.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a98343b9-d0a1-4837-84a4-48988ba8ddf5" absoluteBounds="1.375, 1.75, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/DataClassesSportDataContext/Team" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e1c64cd7-83e0-4cf0-b3ca-3b6bd35cb920" absoluteBounds="1.3900000000000001, 2.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.375 : 2.34699625651042); (4.875 : 2.34699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClassesSportDataContext/Team/Team_Match" />
+      <nodes>
+        <classShapeMoniker Id="a98343b9-d0a1-4837-84a4-48988ba8ddf5" />
+        <classShapeMoniker Id="5e0a2f5b-2b56-4a3d-9eb3-03f7c960aef0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.375 : 1.98599812825521); (4.875 : 1.98599812825521)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClassesSportDataContext/Team/Team_Match1" />
+      <nodes>
+        <classShapeMoniker Id="a98343b9-d0a1-4837-84a4-48988ba8ddf5" />
+        <classShapeMoniker Id="5e0a2f5b-2b56-4a3d-9eb3-03f7c960aef0" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
